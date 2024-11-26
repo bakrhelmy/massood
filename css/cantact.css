@@ -317,7 +317,7 @@ nav ul li :hover {
         display: block; /* Show menu bar */
     }
     .background-image, .second-back {
-        height: 80vh; /* Adjust background height */
+        height: 60vh; /* Adjust background height */
     }
     .slider {
         padding-top: 150px;

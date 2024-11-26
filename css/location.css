@@ -141,7 +141,7 @@ nav ul li :hover {
 
 /* ************** end navbar *************** */
 .background-image{
-    background-image: url(https://www.almasaoodenergy.me/files/cache/fb9e6200a6be3c814fa43c753a029e32_f5337.jpg);
+    background-image: url(https://www.almasaoodenergy.me/files/cache/64610de5bce8b90e94e98650fe335393_f44.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -382,447 +382,6 @@ nav ul li :hover {
 }
 /* ************** end slider *************** */ 
 
-/* *********************** end */
-
-
-/* ************** start cloud discirption  setion *************** */
-/* ************** start cloud description section *************** */
-.cloud-disc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px;
-    flex-wrap: wrap; /* Ensures wrapping for smaller screens */
-}
-
-.desc {
-    width: 50%;
-}
-
-.desc h4 {
-    color: #092a30;
-    font-size: 25px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.desc p {
-    padding-top: 20px;
-    color: #092a30;
-    font-family: "HelveticaNeue LT 45";
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-}
-
-.image-grid {
-    width: 50%;
-    gap: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin: 80px 0px;
-    display: flex;
-    flex-wrap: wrap; /* Wrap images on smaller screens */
-    justify-content: center; /* Center-align for better layout */
-}
-
-.image-item {
-    border: 2px solid #092a30;
-    padding: 10px;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px; /* Add spacing between images */
-}
-
-.image-item img {
-    width: 100%;
-    height: auto;
-}
-
-.xcloud {
-    animation-name: xcloud;
-    animation-duration: 1s;
-    visibility: visible;
-}
-
-@keyframes xcloud {
-    from {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-/* ************** end cloud description section *************** */
-
-/* ************** Media Queries *************** */
-
-/* Tablets (max-width: 992px) */
-@media screen and (max-width: 992px) {
-    .cloud-disc {
-        flex-direction: column; /* Stack description and image grid */
-        margin: 30px;
-    }
-
-    .desc, .image-grid {
-        width: 100%; /* Full width for both sections */
-    }
-
-    .desc h4 {
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    .desc p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .image-grid {
-        margin: 40px 0;
-    }
-}
-
-/* Small Tablets and Large Phones (max-width: 768px) */
-@media screen and (max-width: 768px) {
-    .desc h4 {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .desc p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-
-    .image-item {
-        margin: 8px;
-    }
-}
-
-/* Mobile (max-width: 576px) */
-@media screen and (max-width: 576px) {
-    .desc h4 {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .desc p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .image-grid {
-        gap: 10px;
-    }
-
-    .image-item {
-        width: 100%; /* Make images full width for mobile */
-    }
-}
-
-/* ************** end cloud discirption  setion *************** */
-
-
-/* ************** start cloud item section *************** */
-.dc-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.cloud {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
-    padding: 0px 30px;
-    margin: 50px auto;
-}
-
-.dc-part {
-    padding: 10px;
-    margin: 10px;
-}
-
-.dc-part h4 {
-    color: #092a30;
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.dc-part p {
-    color: #092a30;
-    font-family: "HelveticaNeue LT 45";
-    font-size: 17px;
-    line-height: 30px;
-    font-weight: 400;
-}
-/* ************** end cloud item section *************** */
-
-/* ************** Media Queries *************** */
-
-/* Tablets (max-width: 992px) */
-@media screen and (max-width: 992px) {
-    .cloud {
-        width: 60%; /* Increase width for better visibility */
-        padding: 0 20px;
-        margin: 40px auto;
-    }
-
-    .dc-part h4 {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    .dc-part p {
-        font-size: 15px;
-        line-height: 26px;
-    }
-}
-
-/* Small Tablets (max-width: 768px) */
-@media screen and (max-width: 768px) {
-    .cloud {
-        width: 80%; /* Full width for smaller tablets */
-        padding: 0 15px;
-        margin: 30px auto;
-    }
-
-    .dc-part h4 {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    .dc-part p {
-        font-size: 14px;
-        line-height: 24px;
-    }
-}
-
-/* Mobile (max-width: 576px) */
-@media screen and (max-width: 576px) {
-    .cloud {
-        width: 95%; /* Almost full width for mobile screens */
-        padding: 0 10px;
-        margin: 20px auto;
-    }
-
-    .dc-part h4 {
-        font-size: 13px;
-        line-height: 22px;
-    }
-
-    .dc-part p {
-        font-size: 13px;
-        line-height: 22px;
-    }
-}
-
-
-
-
-
-/* ************** start get setion *************** */
-.get-start{
-    background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-}
-.get-content{
-text-align: center;
-padding: 150px;
-
-}
-.get-content h3{
-    color: white; /* Main theme color */
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
-    line-height: 56px; /* Line height for proper spacing */
-    vertical-align: baseline; /* Align baseline vertically */
-    letter-spacing: 5px; /* Add spacing between letters */
-    word-spacing: 0px; /* No extra spacing between words */
-    font-weight: 700; /* Make the text bold */
-    font-style: normal; /* Normal font style */
-    font-variant: normal; /* No font variations */
-    text-transform: uppercase; /* Convert text to uppercase */
-    text-decoration: none; /* No text decorations (e.g., underline) */
-    text-align: center; /* Center the text horizontally */
-    text-indent: 0px; /* No indentation */
-}
-.get-content p{
-    color: white; /* Text color */
-    font-size: 17px; /* Font size for paragraph text */
-    line-height: 30px; /* Line height for proper spacing */
-    vertical-align: baseline; /* Align text to baseline */
-    letter-spacing: normal; /* Default letter spacing */
-    word-spacing: 0px; /* No additional word spacing */
-    font-weight: 400; /* Normal font weight */
-    font-style: normal; /* Normal font style */
-    font-variant: normal; /* No font variations */
-    text-transform: none; /* No text transformation */
-    text-decoration: none; /* No text decorations (e.g., underline) */
-    text-align: center; /* Center-align the text */
-    text-indent: 0px; /* No text indentation */
-    font-family: "Montserrat", sans-serif; /* Font family */
-    /* margin-top: 40px; */
-    /* margin-bottom: 20px;  */
-}
-.get-content a{
-    display: inline-block;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    vertical-align: baseline;
-    word-spacing: 0px;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-    text-indent: 0px;
-    margin-top: 30px;
-    border: 1px solid #bababa;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-    transition: 0.6s all ease;
-    letter-spacing: 5px;
-}
-.get-content a:hover{
-    color: #092a30;
-    background-color: white; 
-}
-/* ************** end get setion *************** */
-/* Tablet screens (900px and below) */
-@media screen and (max-width: 900px) {
-    /* Additional Section */
-    .inner {
-        padding: 40px;
-    }
-    .all-content h3 {
-        font-size: 32px; /* Smaller heading font size */
-        letter-spacing: 3px; /* Reduced letter spacing */
-    }
-    .all-content p {
-        font-size: 15px; /* Adjust paragraph font size */
-    }
-    .all-content button {
-        padding: 15px 20px;
-        font-size: 12px;
-    }
-
-    /* Get Started Section */
-    .get-start {
-        height: 60vh; /* Adjust height for mobile screens */
-    }
-    .get-content {
-        padding: 80px 20px;
-    }
-    .get-content h3 {
-        font-size: 24px; /* Reduced heading size */
-        line-height: 40px;
-    }
-    .get-content p {
-        font-size: 14px; /* Smaller paragraph text */
-    }
-    .get-content a {
-        font-size: 12px;
-        padding: 12px 18px;
-    }
-}
-
-/* Mobile screens (768px and below) */
-@media screen and (max-width: 768px) {
-    /* Additional Section */
-    .inner {
-        padding: 30px;
-    }
-    .all-content h3 {
-        font-size: 28px; /* Further reduce heading size */
-        letter-spacing: 2px;
-    }
-    .all-content p {
-        font-size: 14px; /* Adjust paragraph size */
-    }
-    .all-content button {
-        padding: 12px 18px;
-        font-size: 11px;
-    }
-
-    /* Get Started Section */
-    .get-start {
-        height: 50vh;
-    }
-    .get-content {
-        padding: 60px 20px;
-    }
-    .get-content h3 {
-        font-size: 20px; /* Heading further reduced */
-    }
-    .get-content p {
-        font-size: 13px;
-    }
-    .get-content a {
-        font-size: 11px;
-        padding: 10px 15px;
-    }
-}
-
-/* Small mobile screens (480px and below) */
-@media screen and (max-width: 480px) {
-    /* Additional Section */
-    .inner {
-        padding: 20px;
-    }
-    .all-content h3 {
-        font-size: 22px; /* Compact heading size */
-        letter-spacing: 1px;
-    }
-    .all-content p {
-        font-size: 12px; /* Smaller text */
-    }
-    .all-content button {
-        padding: 10px 15px;
-        font-size: 10px;
-    }
-
-    /* Get Started Section */
-    .get-start {
-        height: 40vh;
-    }
-    .get-content {
-        padding: 50px 10px;
-    }
-    .get-content h3 {
-        font-size: 18px; /* Compact heading */
-    }
-    .get-content p {
-        font-size: 12px;
-    }
-    .get-content a {
-        font-size: 10px;
-        padding: 8px 12px;
-    }
-}
-
 /* ************** start footer setion *************** */
 footer {
     background-color: #102326; 
@@ -1044,5 +603,171 @@ footer .bottom-bar {
 
     footer .bottom-bar {
         font-size: 0.7em; /* Very small font for bottom bar */
+    }
+}
+
+
+
+/* ************** start who we are setion *************** */
+.who-are {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+    max-width: 700px;
+    font-family: 'Montserrat', sans-serif; 
+    /* height: 100vh; */
+}
+
+.who-are h2 {
+    color: #092a30; /* Main theme color */
+    font-size: 44px; /* Font size for heading */
+    font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
+    margin-bottom: 20px; /* Space below the heading */
+    line-height: 56px; /* Line height for proper spacing */
+    vertical-align: baseline; /* Align baseline vertically */
+    letter-spacing: 5px; /* Add spacing between letters */
+    word-spacing: 0px; /* No extra spacing between words */
+    font-weight: 700; /* Make the text bold */
+    font-style: normal; /* Normal font style */
+    font-variant: normal; /* No font variations */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-decoration: none; /* No text decorations (e.g., underline) */
+    text-align: center; /* Center the text horizontally */
+    text-indent: 0px; /* No indentation */
+
+}
+
+.who-are p { 
+    margin-top: 40px;
+    color: #092a30; /* Text color */
+    font-size: 17px; /* Font size for paragraph text */
+    line-height: 30px; /* Line height for proper spacing */
+    vertical-align: baseline; /* Align text to baseline */
+    letter-spacing: normal; /* Default letter spacing */
+    word-spacing: 0px; /* No additional word spacing */
+    font-weight: 400; /* Normal font weight */
+    font-style: normal; /* Normal font style */
+    font-variant: normal; /* No font variations */
+    text-transform: none; /* No text transformation */
+    text-decoration: none; /* No text decorations (e.g., underline) */
+    text-align: center; /* Center-align the text */
+    text-indent: 0px; /* No text indentation */
+    font-family: "Montserrat", sans-serif; /* Font family */
+    margin-bottom: 20px; /* Space below paragraph */
+
+}
+.who-are a {
+    display: inline-block;
+    background-color:white; /* Use the theme's main color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+
+    line-height:36px;
+    vertical-align:baseline;
+    word-spacing:0px;
+    font-style:normal;
+    font-variant:normal;
+    text-align:center;
+    text-indent:0px;
+    margin-top: 70px;
+
+    border: 1px solid #bababa;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 20px 30px;
+    color: #092a30;
+    text-decoration: none;
+    transition: 0.6s all ease;
+    letter-spacing: 5px;
+}
+
+.who-are a:hover {
+    color: white;
+    background-color: #092a30; /* Darken the button on hover */
+}
+
+.xxx {
+    animation-name: xxx;
+    animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes xxx {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ************** end who we are setion *************** */
+/* Tablet screens (992px and below) */
+@media screen and (max-width: 992px) {
+    .who-are {
+        padding: 30px; /* Reduce padding */
+        height: auto; /* Adjust height for content */
+        max-width: 90%; /* Use more available screen space */
+    }
+    .who-are h2 {
+        font-size: 36px; /* Reduce font size */
+        line-height: 46px; /* Adjust line height */
+        letter-spacing: 3px; /* Reduce letter spacing */
+    }
+    .who-are p {
+        font-size: 15px; /* Smaller paragraph font size */
+        line-height: 24px; /* Adjust line height */
+        margin-top: 20px; /* Reduce top margin */
+    }
+    .who-are button {
+        font-size: 12px; /* Smaller font for buttons */
+        padding: 15px 25px; /* Adjust padding */
+        letter-spacing: 3px; /* Reduce letter spacing */
+    }
+}
+
+/* Mobile screens (768px and below) */
+@media screen and (max-width: 768px) {
+    .who-are {
+        text-align: center; /* Ensure center alignment */
+        padding: 20px; /* Further reduce padding */
+    }
+    .who-are h2 {
+        font-size: 28px; /* Smaller font size for heading */
+        line-height: 38px; /* Adjust line height */
+        margin-bottom: 15px; /* Reduce bottom margin */
+    }
+    .who-are p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+        line-height: 22px; /* Adjust line height */
+    }
+    .who-are button {
+        font-size: 11px; /* Smaller font for buttons */
+        padding: 10px 20px; /* Compact padding */
+    }
+}
+
+/* Small mobile screens (576px and below) */
+@media screen and (max-width: 576px) {
+    .who-are {
+        padding: 40px;
+        max-width: 100%; /* Full-width container */
+    }
+    .who-are h2 {
+        font-size: 24px; /* Further reduce heading size */
+        line-height: 32px; /* Adjust line height */
+    }
+    .who-are p {
+        font-size: 12px; /* Small font for paragraphs */
+        line-height: 20px; /* Adjust line height */
+        margin-top: 10px; /* Reduce top margin */
+    }
+    .who-are button {
+        font-size: 10px; /* Small button font */
+        padding: 8px 15px; /* Compact padding */
     }
 }
