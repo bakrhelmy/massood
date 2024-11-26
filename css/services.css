@@ -533,71 +533,36 @@ nav ul li :hover {
 
 /* ************** end service setion *************** */
 
-.get-start {
-    background-image: url(https://www.almasaoodenergy.me/files/3614/6147/7763/1.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.get-content {
-    text-align: center;
-}
-
-.get-content h3 {
-    color: white;
-    font-size: 40px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 56px;
-    vertical-align: baseline;
-    letter-spacing: 10px;
-    font-weight: 700;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    text-indent: 0px;
-}
-/* **************start dg setion *************** */
-
-.get-start2 {
+/* ************** start get setion *************** */
+.get-start{
     background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 75vh;
 }
+.get-content{
+text-align: center;
+padding: 150px;
 
-.get-content2{
-    text-align: center;
 }
-
-.get-content2 h3 {
-    color: white;
-    font-size: 40px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 56px;
-    vertical-align: baseline;
-    letter-spacing: 10px;
-    font-weight: 700;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    text-indent: 0px;
+.get-content h3{
+    color: white; /* Main theme color */
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
+    line-height: 56px; /* Line height for proper spacing */
+    vertical-align: baseline; /* Align baseline vertically */
+    letter-spacing: 5px; /* Add spacing between letters */
+    word-spacing: 0px; /* No extra spacing between words */
+    font-weight: 700; /* Make the text bold */
+    font-style: normal; /* Normal font style */
+    font-variant: normal; /* No font variations */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-decoration: none; /* No text decorations (e.g., underline) */
+    text-align: center; /* Center the text horizontally */
+    text-indent: 0px; /* No indentation */
 }
-.get-content2 p{
+.get-content p{
     color: white; /* Text color */
     font-size: 17px; /* Font size for paragraph text */
     line-height: 30px; /* Line height for proper spacing */
@@ -615,7 +580,8 @@ nav ul li :hover {
     /* margin-top: 40px; */
     /* margin-bottom: 20px;  */
 }
-.get-content2 button{
+.get-content a{
+    display: inline-block;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -637,13 +603,11 @@ nav ul li :hover {
     transition: 0.6s all ease;
     letter-spacing: 5px;
 }
-.get-content2 button:hover{
+.get-content a:hover{
     color: #092a30;
     background-color: white; 
 }
-/* ************** end dg setion *************** */
-
-
+/* ************** end get setion *************** */
 /* Tablet screens (900px and below) */
 @media screen and (max-width: 900px) {
     /* Additional Section */
