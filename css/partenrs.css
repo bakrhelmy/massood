@@ -14,10 +14,10 @@ body{
     margin: 0 auto;
     
 }
-/* ******************************** */
 .nav-content a{
     text-decoration: none;
 }
+/* ******************************** */
 /* ***********  start search-bar ************* */
 .search-bar{
     display: flex;
@@ -148,7 +148,7 @@ nav ul li :hover {
 
 /* ************** end navbar *************** */
 .background-image{
-    background-image: url(https://www.almasaoodenergy.me/files/cache/fb9e6200a6be3c814fa43c753a029e32_f5337.jpg);
+    background-image: url(https://www.almasaoodenergy.me/files/cache/100aea87adf7dcbd94a4ca70f748a39d_f21.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -166,11 +166,11 @@ nav ul li :hover {
 
 /* ************** start slider *************** */
 .slider{
-    padding-top: 15px;
-    /* padding-bottom: 200px; */
+    padding-top: 120px;
+    padding-bottom: 200px;
 }
 .container-slider{
-    /* width: 50%; */
+    width: 50%;
     margin: 0 auto;
     
 }
@@ -215,8 +215,6 @@ nav ul li :hover {
     text-indent:0px;
 }
 .slider-text {
-    margin: auto;
-    width: 80%;
     animation-name: slider-text;
     animation-duration: 1s;
     visibility: visible;
@@ -231,62 +229,109 @@ nav ul li :hover {
         transform: translateX(0);
     }
 }
+/* ************** end slider *************** */
 
-/* Media Queries for Mobile and Tablet */
-
-/* Tablet Screens (992px and smaller) */
-@media screen and (max-width: 992px) {
-    
-    .slider-text p {
-        font-size: 32px; /* Smaller font size */
-        line-height: 48px;
-    }
-
-    .slider-desc p {
-        font-size: 16px; /* Adjusted font size */
-        line-height: 28px;
-    }
-
-    .background-image,
-    .second-back {
-        height: 50vh; /* Adjusted height for smaller screens */
-    }
+/* Desktop (Default styles) */
+.background-image {
+    background-size: cover;
+    height: 62vh;
+}
+.slider {
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+.container-slider {
+    width: 50%;
+}
+.slider-text p {
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 10px;
+}
+.slider-desc p {
+    font-size: 18px;
+    line-height: 32px;
 }
 
-/* Mobile Screens (768px and smaller) */
-@media screen and (max-width: 768px) {
-    .slider-text p {
-        font-size: 28px; /* Even smaller text size for mobile */
-        line-height: 42px;
-    }
 
-    .slider-desc p {
-        font-size: 14px; /* Adjusted for mobile screens */
-        line-height: 24px;
-    }
+/* Default styles (Desktop) */
+/* The current code already targets large screens */
 
-    .background-image,
-    .second-back {
-        height: 40vh; /* Reduced height on mobile */
-    }
-
-    .nav-content {
-        flex-direction: row; 
+@media screen and (max-width: 992px) {
+    .container {
+        width: 90%; /* Adjust container width for medium screens */
     }
 
     .search-bar ul {
-        display: none;
+        padding: 8px;
+        padding-right: 24px;
+    }
+
+    .search-bar ul li a {
+        font-size: 9px; /* Reduce font size */
+        padding: 0 8px;
+    }
+
+    .nav-bar {
+        padding-top: 5px;
+    }
+
+    .menu-bar {
+        display: block; /* Show the menu bar on medium screens */
+    }
+
+    nav {
+        display: none; /* Hide the full menu */
+    }
+
+    .slider {
+        padding-top: 30px;
+        padding-bottom: 150px;
+    }
+
+    .slider-text p {
+        font-size: 32px; /* Reduce the font size */
+        line-height: 45px;
+    }
+
+    .slider-desc p {
+        font-size: 14px; /* Reduce the description text size */
+        line-height: 28px;
+    }
+
+    .background-image, .second-back {
+        height: 50vh; /* Adjust height for medium screens */
     }
 }
 
-/* Extra Small Screens (576px and smaller) */
 @media screen and (max-width: 576px) {
-    .container{
-        width: 90%;
+    .container {
+        width: 95%; /* Further reduce container width for small screens */
     }
+
+    .search-bar {
+        display: none;
+    }
+
+    .search-bar ul {
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    .search-bar ul li {
+        padding: 5px 0;
+    }
+
+    .nav-bar {
+    }
+
+    .menu-bar {
+        font-size: 20px; /* Adjust menu bar size */
+    }
+
     .slider-text p {
-        font-size: 24px; /* Smaller font size for very small screens */
-        line-height: 36px;
+        font-size: 24px; /* Smaller text for mobile */
+        line-height: 35px;
     }
 
     .slider-desc p {
@@ -294,29 +339,24 @@ nav ul li :hover {
         line-height: 20px;
     }
 
-    .background-image,
-    .second-back {
-        height: 35vh; /* Further reduce height */
+    .background-image, .second-back {
+        height: 40vh; /* Smaller height for mobile */
     }
     .logo img{
         width: 150px;
         height: 150px;
     }
 }
-
-
-
-
-/* ************** end slider *************** *//* Default Desktop Styles */
+/* Default Desktop Styles */
 .flar {
     margin: 80px 25px;
 }
 
 .flar p {
+    margin-top: 40px;
     color: #092a30;
     font-size: 17px;
     line-height: 30px;
-    word-spacing: 0px;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
 }
@@ -329,10 +369,6 @@ nav ul li :hover {
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
-}
-
-.frist-para {
-    padding-top: 30px;
 }
 
 /* Default Image Grid (3 Columns) */
@@ -362,7 +398,7 @@ nav ul li :hover {
 /* Tablet Screens (992px and smaller) */
 @media screen and (max-width: 992px) {
     .flar p, .flar ul li {
-        font-size: 15px; /* Slightly smaller text for tablet */
+        font-size: 15px; /* Slightly smaller text */
         line-height: 26px;
     }
 
@@ -380,20 +416,20 @@ nav ul li :hover {
     }
 
     .image-grid {
-        grid-template-columns: 1fr; /* Single column on mobile */
+        grid-template-columns: 1fr; /* Single column for mobile */
         gap: 10px;
     }
 }
 
-/* Extra Small Screens (576px and smaller) */
+/* Extra Small Phones (576px and smaller) */
 @media screen and (max-width: 576px) {
     .flar p, .flar ul li {
-        font-size: 13px; /* Adjust font size for very small screens */
+        font-size: 13px; /* Smallest font size for readability */
         line-height: 22px;
     }
 
     .image-grid {
-        grid-template-columns: 1fr; /* One column layout for small screens */
+        grid-template-columns: 1fr; /* Keep it single-column */
         gap: 8px;
     }
 }
@@ -809,3 +845,33 @@ footer .bottom-bar {
     }
 }
     
+
+/* ************** start who we are setion *************** */
+.who-are {
+    text-align: center;
+    background-color: white;
+    padding: 80px 0 0 0 ;
+    margin: auto;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif; 
+    /* height: 10vh; */
+}
+
+.who-are h2 {
+    color: #092a30; /* Main theme color */
+    font-size: 44px; /* Font size for heading */
+    font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
+    margin-bottom: 20px; /* Space below the heading */
+    line-height: 56px; /* Line height for proper spacing */
+    vertical-align: baseline; /* Align baseline vertically */
+    letter-spacing: 5px; /* Add spacing between letters */
+    word-spacing: 0px; /* No extra spacing between words */
+    font-weight: 700; /* Make the text bold */
+    font-style: normal; /* Normal font style */
+    font-variant: normal; /* No font variations */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-decoration: none; /* No text decorations (e.g., underline) */
+    text-align: center; /* Center the text horizontally */
+    text-indent: 0px; /* No indentation */
+
+}

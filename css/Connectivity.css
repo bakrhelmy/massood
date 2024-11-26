@@ -86,6 +86,9 @@ body{
 }
 .logo{
     margin-right: 10px;
+}.logo img{
+    width: 200px;
+    height: 200px;
 }
 .nav-content{
     display: flex;
@@ -234,6 +237,10 @@ nav ul li :hover {
     .background-image, .second-back {
         height: 30vh; /* Reduce height for smaller screens */
     }
+    .logo img{
+        width: 150px;
+        height: 150px;
+    }
 }
 
 
@@ -351,7 +358,7 @@ nav ul li :hover {
         height: 50vh; /* Shrink height for mobile */
     }
     .slider {
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 50px;
     }
     .slider-text p {

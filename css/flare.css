@@ -87,6 +87,10 @@ body{
 .logo{
     margin-right: 10px;
 }
+.logo img{
+    width: 200px;
+    height: 200px;
+}
 .nav-content{
     display: flex;
     justify-content: space-between;
@@ -162,7 +166,7 @@ nav ul li :hover {
 
 /* ************** start slider *************** */
 .slider{
-    padding-top: 120px;
+    padding-top:   0px;
     padding-bottom: 200px;
 }
 .container-slider{
@@ -258,7 +262,7 @@ nav ul li :hover {
     }
 
     .slider {
-        padding-top: 80px;
+        padding-top: 50px;
         padding-bottom: 150px;
     }
 
@@ -314,6 +318,10 @@ nav ul li :hover {
 
     .background-image, .second-back {
         height: 40vh; /* Smaller height for mobile */
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
     }
 }
 

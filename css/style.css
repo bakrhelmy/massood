@@ -84,6 +84,10 @@ body{
 .logo{
     margin-right: 10px;
 }
+.logo img{
+    width: 230px;
+    height: 230px;
+}
 .nav-content{
     display: flex;
     justify-content: space-between;
@@ -371,6 +375,10 @@ nav ul li :hover {
 
 /* Small Phones */
 @media screen and (max-width: 576px) {
+    .logo img{
+        width: 150px;
+        height: 150px;
+    }
     .social-sidebar{
         display: none;
     }
@@ -392,7 +400,7 @@ nav ul li :hover {
         width: 30px; /* Even smaller arrow icon */
     }
     .background-image, .second-back {
-        height: 50vh; /* Reduce height for smaller screens */
+        height: 55vh; /* Reduce height for smaller screens */
     }
 }
 

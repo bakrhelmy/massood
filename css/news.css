@@ -87,6 +87,10 @@ body{
 .logo{
     margin-right: 10px;
 }
+.logo img{
+    width: 200px;
+    height: 200px;
+}
 .nav-content{
     display: flex;
     justify-content: space-between;
@@ -180,7 +184,7 @@ nav ul li :hover {
         height: 100vh; /* Reduce height for smaller screens */
     }
     .slider {
-        padding-top: 178px;
+        padding-top: 58px;
         padding-bottom: 100px;
     }
     .slider-text p {
@@ -203,7 +207,7 @@ nav ul li :hover {
         font-size: 8px; /* Smaller text for links */
     }
     .slider {
-        padding-top: 267px;
+        padding-top: 57px;
         padding-bottom: 100px;
     }
     .slider-text p {
@@ -233,6 +237,10 @@ nav ul li :hover {
     }
     .background-image, .second-back {
         height: 30vh; /* Reduce height for smaller screens */
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -351,7 +359,7 @@ nav ul li :hover {
         height: 50vh; /* Shrink height for mobile */
     }
     .slider {
-        padding-top: 100px;
+        padding-top: 20px;
         padding-bottom: 50px;
     }
     .slider-text p {

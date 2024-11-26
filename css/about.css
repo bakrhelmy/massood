@@ -76,7 +76,7 @@ body{
 
 /* ***********  start navbar ************* */
 .nav-bar{
-    padding-top: 10px;
+    /* padding-top: 10px; */
     display: flex;
     align-items: center; /* Align vertically */
     justify-content: space-between;
@@ -84,6 +84,10 @@ body{
 }
 .logo{
     margin-right: 10px;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
 }
 .nav-content{
     display: flex;
@@ -158,7 +162,7 @@ nav ul li :hover {
 }
 
 .about{
-    padding: 100px;
+    /* padding: 100px; */
 }
 .about h1{
     text-align: center;
@@ -218,7 +222,7 @@ nav ul li :hover {
         font-size: 8px; /* Smaller text for links */
     }
     .about {
-        padding: 60px 20px;
+        padding: 20px 20px;
     }
     .about h1 {
         font-size: 32px;
@@ -228,6 +232,10 @@ nav ul li :hover {
     
 }
 @media screen and (max-width: 576px) {
+    .logo img{
+        width: 150px;
+        height: 150px;
+    }
     .social-sidebar{
         display: none;
     }

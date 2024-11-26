@@ -85,6 +85,10 @@ body{
 .logo{
     margin-right: 10px;
 }
+.logo img{
+    width: 200px;
+    height: 200px;
+}
 .nav-content{
     display: flex;
     justify-content: space-between;
@@ -157,7 +161,7 @@ nav ul li :hover {
     height: 60vh;
 }
 .about{
-    padding: 100px;
+    /* padding: 100px; */
 }
 .about h1{
     text-align: center;
@@ -250,7 +254,7 @@ nav ul li :hover {
         font-size: 8px; /* Smaller text for links */
     }
     .about {
-        padding: 60px 20px;
+        padding: 20px 20px;
     }
     .about h1 {
         font-size: 32px;
@@ -278,6 +282,10 @@ nav ul li :hover {
     }
     .background-image, .second-back {
         height: 30vh; /* Reduce height for smaller screens */
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
     }
 }
 
