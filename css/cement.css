@@ -15,6 +15,9 @@ body{
     
 }
 /* ******************************** */
+.nav-content a{
+    text-decoration: none;
+}
 /* ***********  start search-bar ************* */
 .search-bar{
     display: flex;

@@ -897,4 +897,6 @@ footer .bottom-bar {
         font-size: 0.7em; /* Very small font for bottom bar */
     }
 }
-    
+.nav-content a{
+    text-decoration: none;
+}

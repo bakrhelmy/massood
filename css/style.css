@@ -91,6 +91,9 @@ body{
     /* padding-left: 250px; */
 
 }
+.nav-content a{
+    text-decoration: none;
+}
 nav{
     margin-left: 15px; 
 }
@@ -116,9 +119,7 @@ nav ul li a{
     padding: 10px;
     margin: 10px;
 }
-.nav-content span{
-    
-}
+
 nav ul li :hover {
     background-color: white;
     color: black;

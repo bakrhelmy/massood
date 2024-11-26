@@ -9,7 +9,9 @@
 body{
 /* height: 10000px */
 }
-
+.nav-content a{
+    text-decoration: none;
+}
 .container{
     width: 75%;
     margin: 0 auto;
