@@ -917,7 +917,7 @@ height: 55vh;
     background-color: white;
     padding: 50px;
     margin: auto;
-    max-width: 700px;
+    width: 80%;
     font-family: 'Montserrat', sans-serif; 
     /* height: 100vh; */
 }
@@ -928,7 +928,6 @@ height: 55vh;
     color: #092a30; /* Main theme color */
     font-size: 44px; /* Font size for heading */
     font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
-    margin-bottom: 20px; /* Space below the heading */
     line-height: 56px; /* Line height for proper spacing */
     vertical-align: baseline; /* Align baseline vertically */
     letter-spacing: 5px; /* Add spacing between letters */
