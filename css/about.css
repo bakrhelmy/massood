@@ -231,7 +231,7 @@ nav ul li :hover {
 }
 @media screen and (max-width: 576px) {
     .nav-bar{
-        padding-top: 30px;
+        padding-top: 15px;
     }
     .background-image{
         background-image: url("../images/622.png");       
@@ -422,6 +422,7 @@ align-items: center;
 }
 .values ul{
     list-style: none;
+    padding-left: 0;
 }
 .values ul li{
     color:#ffffff;
