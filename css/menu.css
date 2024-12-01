@@ -303,6 +303,8 @@ nav ul li a:hover {
     .social-icons a {
         font-size: 14px; /* Reduce icon size */
         padding: 5px;
+        margin: 10px 0;
+
     }
 
     .search-bar ul {
