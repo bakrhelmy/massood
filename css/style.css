@@ -374,7 +374,6 @@ nav ul li :hover {
 @media screen and (max-width: 576px) {
     .nav-bar{
         padding-top: 20px;
-
     }
     .logo img{    
         width: 120px;
@@ -384,7 +383,7 @@ nav ul li :hover {
         display: none;
     }
     .search-bar ul li a {
-        font-size: 6px; /* Reduce further for very small screens */
+        font-size: 6px;
     }
     .slider-text p {
         font-size: 18px;
@@ -398,10 +397,10 @@ nav ul li :hover {
         line-height: 20px;
     }
     .next-mover img {
-        width: 30px; /* Even smaller arrow icon */
+        width: 30px; 
     }
     .background-image, .second-back {
-        height: 55vh; /* Reduce height for smaller screens */
+        height: 55vh;
     }
 }
 
