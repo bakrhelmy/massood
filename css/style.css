@@ -375,9 +375,9 @@ nav ul li :hover {
     .nav-bar{
         padding-top: 20px;
     }
-    .logo img{    
-        width: 120px;
-        height: 70px;
+    .logo img{ 
+        width: 150px;
+        height: 150px;
     }
     .social-sidebar{
         display: none;
