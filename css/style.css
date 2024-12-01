@@ -372,9 +372,13 @@ nav ul li :hover {
 
 /* Small Phones */
 @media screen and (max-width: 576px) {
-    .logo img{
-        width: 150px;
-        height: 150px;
+    .nav-bar{
+        padding-top: 20px;
+
+    }
+    .logo img{    
+        width: 140px;
+        height: 100px;
     }
     .social-sidebar{
         display: none;
