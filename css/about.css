@@ -230,6 +230,9 @@ nav ul li :hover {
     
 }
 @media screen and (max-width: 576px) {
+    .nav-bar{
+        padding-top: 30px;
+    }
     .background-image{
         background-image: url("../images/622.png");       
         background-size: cover;
