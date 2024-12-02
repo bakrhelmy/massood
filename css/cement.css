@@ -570,8 +570,8 @@ padding: 150px;
 
     /* Get Started Section */
     .get-start {
-        background-image: url("../images/all2.png");
-        background-attachment: fixed;
+        background-image: url("../images/all.png");
+        background-attachment: scroll;
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;

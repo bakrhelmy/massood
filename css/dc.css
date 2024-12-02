@@ -545,7 +545,7 @@ nav ul li :hover {
 /* ************** start get setion *************** */
 .get-start{
     background-image: url("../images/all.png");
-    background-attachment: fixed;
+        background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;

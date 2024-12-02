@@ -570,11 +570,11 @@ nav ul li :hover {
 
 /* ************** start get setion *************** */
 .get-start{
-    background-image: url(https://www.almasaoodenergy.me/files/3614/6147/7763/1.jpg);
+    background-image: url("../images/all.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
 }
 .get-content{
 text-align: center;
@@ -738,13 +738,17 @@ padding: 150px;
 
     /* Get Started Section */
     .get-start {
-        height: 40vh;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
     }
     .get-content {
         padding: 50px 10px;
     }
     .get-content h3 {
         font-size: 18px; /* Compact heading */
+        padding-top: 20px;
     }
     .get-content p {
         font-size: 12px;
