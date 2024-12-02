@@ -572,7 +572,6 @@ nav ul li :hover {
 
 .counter-section {
     background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/homepage-parallax.jpg);
-    /* background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/homepage-parallax.jpg); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -649,6 +648,12 @@ nav ul li :hover {
 }
 
 @media screen and (max-width: 480px) {
+    
+.counter-section {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
     .counter-item h4 {
         font-size: 48px;
     }
@@ -911,7 +916,11 @@ height: 55vh;
     .counter-item p {
         font-size: 12px;
     }
-
+    .values{
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        }
     /* Services Section */
     .services h3 {
         font-size: 20px; /* Smaller heading size */
@@ -1195,10 +1204,15 @@ padding: 150px;
     }
 
     /* Get Started Section */
-    
-    .get-start {
+    .get-start{
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 40vh;
     }
+    /* .get-start {
+        height: 40vh;
+    } */
     .get-content {
         padding: 30px 10px;
     }
