@@ -571,7 +571,7 @@ nav ul li :hover {
 /* ************** start counter setion *************** */
 
 .counter-section {
-    background-image: url("../images/mainnn.png");
+    background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/homepage-parallax.jpg);
     /* background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/homepage-parallax.jpg); */
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -652,7 +652,7 @@ nav ul li :hover {
     .counter-item h4 {
         font-size: 48px;
     }
-    .counter-section{
+    /* .counter-section{
         background-image: url("../images/mainnn2.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -662,7 +662,7 @@ nav ul li :hover {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } */
     .counter-item p {
         font-size: 14px;
     }
@@ -763,7 +763,7 @@ width: 40%;
 /* ************** start value setion *************** */
 .values{
 text-align: center;
-background-image: url("../images/values.png");
+background-image: url(https://www.almasaoodenergy.me/files/7914/6218/0818/1.jpg);
 /* background-image: url(https://www.almasaoodenergy.me/files/7914/6218/0818/1.jpg); */
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -923,14 +923,14 @@ height: 55vh;
         font-size: 10px;
         padding: 8px 12px;
     }
-    .values{
+    /* .values{
         text-align: center;
         background-image: url("../images/values2.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         height: 25vh;
-    }
+    } */
     /* Values Section */
     .value1 {
         padding: 20px 10px;
@@ -1028,7 +1028,7 @@ height: 55vh;
 /* ************** end additional setion *************** */
 /* ************** start get setion *************** */
 .get-start{
-    background-image: url("../images/all.png");
+    background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
