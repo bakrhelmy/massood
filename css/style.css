@@ -585,7 +585,7 @@ nav ul li :hover {
 
 .counter {
     text-align: center;
-    background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/glassback.png);
+    background-image: url("../images/glassback.png");
     background-size: cover;
     padding: 20px;
     border-radius: 10px;
@@ -668,10 +668,10 @@ nav ul li :hover {
     }
 }
 
-@media screen and (max-width: 556px) {
+/* @media screen and (max-width: 480px) {
     
     .counter-section{
-        background-image: url("../images/mainnn2.png");
+        background-image: url("../images/mainnn23.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -682,7 +682,7 @@ nav ul li :hover {
         align-items: center;
     }
     
-}
+} */
 /* ************** end counter setion *************** */
 /* ************** start servive setion *************** */
 .services{
