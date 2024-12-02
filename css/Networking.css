@@ -824,10 +824,14 @@ padding: 150px;
 
     /* Get Started Section */
     .get-start {
+        background-image: url("../images/all2.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 40vh;
     }
     .get-content {
-        padding: 50px 10px;
+        padding: 30px 10px;
     }
     .get-content h3 {
         font-size: 18px; /* Compact heading */

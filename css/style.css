@@ -572,11 +572,10 @@ nav ul li :hover {
 
 .counter-section {
     background-image: url("../images/mainnn.png");
-
     /* background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/homepage-parallax.jpg); */
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     height: 60vh;
     padding: 100px 10px;
     display: flex;
@@ -653,12 +652,37 @@ nav ul li :hover {
     .counter-item h4 {
         font-size: 48px;
     }
-
+    .counter-section{
+        background-image: url("../images/mainnn2.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        width: 100%;
+        padding: 100px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .counter-item p {
         font-size: 14px;
     }
 }
 
+@media screen and (max-width: 480px) {
+    
+    .counter-section{
+        background-image: url("../images/mainnn2.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        width: 100%;
+        padding: 100px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
 /* ************** end counter setion *************** */
 /* ************** start servive setion *************** */
 .services{
@@ -899,10 +923,18 @@ height: 55vh;
         font-size: 10px;
         padding: 8px 12px;
     }
-
+    .values{
+        text-align: center;
+        background-image: url("../images/values2.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        /* height: 20vh; */
+    }
     /* Values Section */
     .value1 {
         padding: 20px 10px;
+        
     }
     .value1 h2 {
         font-size: 18px;
@@ -1163,11 +1195,16 @@ padding: 150px;
     }
 
     /* Get Started Section */
+    
     .get-start {
+        background-image: url("../images/all2.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 40vh;
     }
     .get-content {
-        padding: 50px 10px;
+        padding: 30px 10px;
     }
     .get-content h3 {
         font-size: 18px; /* Compact heading */
