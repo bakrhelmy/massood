@@ -88,8 +88,8 @@ body{
     margin-right: 10px;
 }
 .logo img{
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 175px;
 }
 .nav-content{
     display: flex;
@@ -148,17 +148,14 @@ nav ul li :hover {
 
 /* ************** end navbar *************** */
 .background-image{
-    background-image: url(https://www.almasaoodenergy.me/files/cache/64610de5bce8b90e94e98650fe335393_f44.jpg);
+    background-image: url("../images/loc7.png");       
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 62vh;
-    /* position: absolute; */
 }
 .second-back{
-    background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/gradient.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(3, 51, 51, 0.607));
     width: 100%;
     height: 62vh;
 }
@@ -236,11 +233,27 @@ nav ul li :hover {
         font-size: 10px;
     }
     .background-image, .second-back {
-        height: 30vh; /* Reduce height for smaller screens */
+        height: 30vh; 
+    }
+    .logo{
+        margin-right: 10px;
     }
     .logo img{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 70px;
+    }
+    .background-image{
+        background-image: url("../images/loc.png");       
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        
+    }
+    .second-back{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(3, 51, 51, 0.607));
+        width: 100%;
+        height: 30vh;
     }
 }
 
@@ -621,15 +634,31 @@ footer .bottom-bar {
 
 /* ************** start who we are setion *************** */
 .who-are {
-    text-align: center;
+    /* text-align: center; */
     background-color: white;
-    padding: 50px;
-    margin: auto;
-    max-width: 700px;
+    padding: 10px;
+    margin: 30px auto;
+
     font-family: 'Montserrat', sans-serif; 
     /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.frist1 , .sec2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:47%;
+    padding: 2px;
+}
+.baaa{
+    padding-right: 15px;
+}
+.frist1 ,i , .sec2 ,i{
+    color: red;
+    font-size: 25px;
+}
 .who-are h2 {
     color: #092a30; /* Main theme color */
     font-size: 44px; /* Font size for heading */
@@ -662,7 +691,6 @@ footer .bottom-bar {
     font-variant: normal; /* No font variations */
     text-transform: none; /* No text transformation */
     text-decoration: none; /* No text decorations (e.g., underline) */
-    text-align: center; /* Center-align the text */
     text-indent: 0px; /* No text indentation */
     font-family: "Montserrat", sans-serif; /* Font family */
     margin-bottom: 20px; /* Space below paragraph */
@@ -679,7 +707,7 @@ footer .bottom-bar {
     word-spacing:0px;
     font-style:normal;
     font-variant:normal;
-    text-align:center;
+    /* text-align:center; */
     text-indent:0px;
     margin-top: 70px;
 
@@ -743,6 +771,13 @@ footer .bottom-bar {
 
 /* Mobile screens (768px and below) */
 @media screen and (max-width: 768px) {
+    .nnnn{
+        display: inline-block;
+        margin: auto;
+    }
+    .frist1 , .sec2{
+        margin: auto;
+    }
     .who-are {
         text-align: center; /* Ensure center alignment */
         padding: 20px; /* Further reduce padding */
@@ -764,6 +799,13 @@ footer .bottom-bar {
 
 /* Small mobile screens (576px and below) */
 @media screen and (max-width: 576px) {
+    .nnnn{
+        display: inline-block;
+        margin: auto;
+    }
+    .frist1 , .sec2{
+        margin: auto;
+    }
     .who-are {
         padding: 40px;
         max-width: 100%; /* Full-width container */

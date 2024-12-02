@@ -88,8 +88,8 @@ body{
     margin-right: 10px;
 }
 .logo img{
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 175px;
 }
 .nav-content{
     display: flex;
@@ -148,21 +148,18 @@ nav ul li :hover {
 
 /* ************** end navbar *************** */
 .background-image{
-    background-image: url(https://www.almasaoodenergy.me/files/cache/100aea87adf7dcbd94a4ca70f748a39d_f21.jpg);
+    background-image: url("../images/cllient.png");       
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 62vh;
+    height: 60vh;
     /* position: absolute; */
 }
 .second-back{
-    background-image: url(https://www.almasaoodenergy.me/themes/almasaood/images/gradient.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(3, 51, 51, 0.607));
     width: 100%;
     height: 62vh;
 }
-
 
 /* ************** start slider *************** */
 .slider{
@@ -302,6 +299,9 @@ nav ul li :hover {
     .background-image, .second-back {
         height: 50vh; /* Adjust height for medium screens */
     }
+    .second-back {
+        height: 46vh; /* Adjust height for medium screens */
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -338,13 +338,24 @@ nav ul li :hover {
         font-size: 12px;
         line-height: 20px;
     }
-
-    .background-image, .second-back {
-        height: 40vh; /* Smaller height for mobile */
+    .nav-bar{
+        padding-top: 15px;
     }
     .logo img{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 70px;
+    }
+    .background-image{
+        background-image: url("../images/cllient.png");       
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+    }
+    .second-back{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(3, 51, 51, 0.607));
+        width: 100%;
+        height: 25vh;
     }
 }
 /* Default Desktop Styles */
@@ -436,7 +447,7 @@ nav ul li :hover {
 
 /* ************** start get setion *************** */
 .get-start{
-    background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
+    background-image: url("../images/all.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

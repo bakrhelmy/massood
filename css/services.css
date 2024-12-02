@@ -538,7 +538,7 @@ nav ul li :hover {
 
 /* ************** start get setion *************** */
 .get-start{
-    background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
+    background-image: url("../images/all.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
