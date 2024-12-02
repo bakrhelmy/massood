@@ -1197,10 +1197,10 @@ padding: 150px;
     /* Get Started Section */
     
     .get-start {
-        background-image: url("../images/all2.png");
+        /* background-image: url("../images/all2.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         height: 40vh;
     }
     .get-content {
