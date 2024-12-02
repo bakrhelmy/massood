@@ -466,7 +466,7 @@ nav ul li :hover {
     font-variant:normal;
     text-align:center;
     text-indent:0px;
-    margin-top: 70px;
+    margin-top: 30px;
 
     border: 1px solid #bababa;
     font-size: 13px;
@@ -565,6 +565,9 @@ nav ul li :hover {
     .who-are button {
         font-size: 10px; /* Small button font */
         padding: 8px 15px; /* Compact padding */
+    }
+    .who-are a{
+
     }
 }
 
@@ -1206,6 +1209,7 @@ padding: 150px;
     .all-content button {
         padding: 10px 15px;
         font-size: 10px;
+        margin: 10px;
     }
 
     /* Get Started Section */

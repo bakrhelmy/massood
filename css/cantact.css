@@ -796,4 +796,7 @@ footer .bottom-bar {
         font-size: 10px; /* Small button font */
         padding: 8px 15px; /* Compact padding */
     }
+    .who-are a{
+        margin: 10px;
+    }
 }
