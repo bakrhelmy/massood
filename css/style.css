@@ -1038,7 +1038,7 @@ height: 55vh;
 /* ************** start get setion *************** */
 .get-start{
     background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
@@ -1205,9 +1205,10 @@ padding: 150px;
 
     /* Get Started Section */
     .get-start{
-        background-attachment: scroll;
+        /* background-image: url(https://www.almasaoodenergy.me/files/2214/6296/6901/r.jpg);
+        background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         height: 40vh;
     }
     /* .get-start {
