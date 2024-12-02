@@ -925,11 +925,11 @@ height: 55vh;
     }
     .values{
         text-align: center;
-        background-image: url("../images/values2.png");
+        background-image: url("../images/values.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        /* height: 20vh; */
+        height: 25vh;
     }
     /* Values Section */
     .value1 {
